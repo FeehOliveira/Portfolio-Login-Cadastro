@@ -1,6 +1,5 @@
 *{
     font-size: 20px;
-    color: #fff;
     font-weight: bold;
 }
 
@@ -36,7 +35,6 @@ body {
     background-color: rgba(0,0,0,.55);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 2rem;
-    color: #fdfdfd;
     border-radius: 1rem;
     max-width: 400px;
 }
