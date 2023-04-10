@@ -1,79 +1,78 @@
-*{
-    font-size: 20px;
-    font-weight: bold;
-}
-
 body {
-    margin: 0;
-    padding: 0;
-}
-
-.logo {
-    width: 64px;
-    height: 64px;
-    padding-top: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-#texto {
-    color: black;
-    font-style: italic;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    border: 5px;
-}
-
-.box {
-    background-color: rgba(0,0,0,.55);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 2rem;
-    border-radius: 1rem;
-    max-width: 400px;
-}
-
-.box img {
-    width: 64px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-
+    background: url("https://source.unsplash.com/random/1920x1080?sig=1");
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 .form-group {
-    width: 100vw;
-    height: 100vh;
-    background: #6C7A89;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background: url("https://source.unsplash.com/random/1920x1080?sig=1");
-    
+    height: 100vh;
 }
 
-.cafe{
-    font-size: 45px;
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(49, 48, 48, 0.8);
+    border-radius: 8px;
+    width: 370px;
+    height: 370px;
+    padding: 50px;
+}
+
+.login img {
+    height: 50px;
+    height: 50px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
+}
+
+.login form {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    margin-top: 10px;
+    background: rgb(221, 221, 221);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #39393a;
+    font-weight: bold;
+    padding-left: 10;
+}
+
+p{
+    color: #FFF;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+.login::placeholder {
+    color: #CBD0f7;
+    font-size: 14px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: #5568FE;
+}
+form [type="submit"]:hover {
+    display: block;
+    background-color: #27317c;
+}
+
+.login a {
+    text-decoration: none;
+    
 }
