@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,14 +14,28 @@
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;1,1;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
-    <title>Classicos4ever</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Criar Conta</title>
 </head>
 
 <body>
-    <h1>Teste</h1>
+    <div class="container-cadastro">
+        <div class="cadastro">
+            <input type="text" name="nome" placeholder="Nome Completo" autofocus>
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="localidade" placeholder="Localidade">
+            <input type="text" name="telefone" placeholder="Telefone">
+            <input type="datetime" name="nascimento" placeholder="nascimento">
+            <input type="password" name="senha" placeholder="Cria sua senha" required>
+            <input type="password" name="senha" placeholder="Confirme sua senha" required>
+            <button type="button" class="botaoCriar">Criar Conta</button>
+            <div>
+                <input type="checkbox"><p>Confirmo que as informações preenchidas são verdadeiras.</p>
 
-
-    <footer></footer>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
